@@ -1,5 +1,5 @@
 # K-R_practice
-My implementations of tasks and interpretations of functions from K&amp;R book (2nd edition).
+My implementations of tasks and interpretations of functions and excercises from K&amp;R book (2nd edition).
 
 This is an educational project, which have a purpose to consolidate previously acquired knowledge in C programing language.
 This repo may be useful to developers learning C language, as I will try to highlight all of mistakes I made while studying K&R book and add nessesary comments in code.
