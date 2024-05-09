@@ -1,4 +1,4 @@
-// The function read seweral strings from input and return largest from them
+/* The function read seweral strings from input and return largest from them. */
 #include <stdio.h>
 #define MAXLINE 1000
 
