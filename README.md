@@ -7,13 +7,13 @@ I'll try to describe in detail any non-obvious moments from the book in comments
 
 My toolchain is: 
 
-  Ubuntu 22.04.4 LTS
+  Ubuntu 22.04.4 LTS (main PC) / Arch Linux (backup laptop)
   
   x86-64
   
   VS Code 1.88.1
   
-  gcc 11.4.0 (or 12)
+  gcc 14
   
   gcc -std=c99
 
