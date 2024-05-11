@@ -3,18 +3,15 @@
 #include <stdio.h>
 
 void main(void){
-    int c;
+    int c = 0;
 
-    c = getchar();
-    while(c != EOF){
-        putchar(c);
-        while(c == ' '){
-            continue;
+    while((c = getchar()) != EOF){
+        if(c == ' '){
             putchar(c);
-            c = getchar();
+            while ((c = getchar()) == ' '){
+                putchar("");
+            }
         }
-        c = getchar();
+        putchar(c);
     }
 }
-
-/* IN PROGRESS*/
