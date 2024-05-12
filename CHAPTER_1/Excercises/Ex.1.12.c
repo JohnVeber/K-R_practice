@@ -5,9 +5,13 @@ void main(void){
     int c;
     
     while((c = getchar()) != EOF){
-        //putchar(c);
         if(c == ' ' || c == '\n' || c == '\t' ){
+            while(c == ' ' || c == '\n' || c == '\t'){
+                putchar("");
+                c = getchar();
+            }
             printf("\n");
+            putchar(c);
         }
         else{
             putchar(c);
